@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0056b3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.info h2 {
+    color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0056b3;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.intro {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.responsive {
+    width: 100%; /* Makes the image take up the full width of its container */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 600px; /* Limits the maximum width */
+    display: block; /* Centers the image in its container */
+    margin: 10px auto; /* Adds some margin for spacing */
+}
